@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>add_student</title>
+    <meta name="lyx" content="database on web">
+</head>
+
+<body>
+    <h4>学生添加</h4>
+
+    <form name="signin" action="php/add_student.php" method="post">
+    <table>
+        <tr>
+            <td><label>学号：</label></td>
+            <td><input type="text" name="stunum" id="stunum" required></td>
+        </tr>
+        <tr>
+            <td><label>姓名：</label></td>
+            <td><input type="text" name="name" id="name" required></td>
+        </tr>
+        <tr>
+            <td><label>性别：</label></td>
+            <td><input type="text" name="sex" id="sex" required></td>
+        </tr>
+        <tr>
+            <td><label>学院：</label></td>
+            <td><input type="text" name="dep" id="dep" required></td>
+        </tr>
+    </table>
+        <label id="info"></label>
+        <button type="submit" name = "submit">提交</button>
+    </form>
+    <br>
+
+</body>
+
+</html>
